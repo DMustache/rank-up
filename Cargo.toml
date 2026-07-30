@@ -1,0 +1,15 @@
+[package]
+name = "rank-up"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+itertools = "0.15.0"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+rand = "0.10.2"
+
+[[bench]]
+name = "selection_sort_benchmark"
+harness = false
