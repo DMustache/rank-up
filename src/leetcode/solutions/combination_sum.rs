@@ -61,6 +61,7 @@ mod test {
     fn example3() {
         let s = [2].to_vec();
         let p = 1;
-        assert_eq!([].to_vec(), Solution::combination_sum(s, p))
+        let result: Vec<Vec<i32>> = [].to_vec();
+        assert_eq!(result, Solution::combination_sum(s, p))
     }
 }
