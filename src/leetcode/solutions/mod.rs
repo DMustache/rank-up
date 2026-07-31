@@ -1,3 +1,4 @@
+mod combination_sum;
 mod container_with_most_water;
 mod find_median_sorted_arrays;
 mod longest_common_prefix;
