@@ -1,8 +1,11 @@
+mod container_with_most_water;
 mod find_median_sorted_arrays;
+mod longest_common_prefix;
 mod longest_palindromic_substring;
 mod minimum_number_of_pushes_to_type_word_ii;
 mod palindrome_number;
 mod regular_expression_matching;
+mod remove_element;
 mod reverse_integer;
 mod string_to_integer_atoi;
 mod zigzag_conversion;
