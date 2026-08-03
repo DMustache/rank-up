@@ -59,11 +59,7 @@ impl From<char> for Node {
 fn check_pipe(pipe_map: &[&str]) -> bool {
     let grid = pipe_map
         .iter()
-        .map(|row| {
-            row.chars()
-                .map(Node::from)
-                .collect::<Vec<Node>>()
-        })
+        .map(|row| row.chars().map(Node::from).collect::<Vec<Node>>())
         .collect::<Vec<Vec<Node>>>();
 
     let mut queue = VecDeque::new();
