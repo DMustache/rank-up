@@ -8,5 +8,6 @@ mod palindrome_number;
 mod regular_expression_matching;
 mod remove_element;
 mod reverse_integer;
+mod stone_game_iii;
 mod string_to_integer_atoi;
 mod zigzag_conversion;
