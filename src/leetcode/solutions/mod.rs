@@ -2,6 +2,7 @@ mod combination_sum;
 mod container_with_most_water;
 mod find_median_sorted_arrays;
 mod four_sum;
+mod four_sum_ii;
 mod longest_common_prefix;
 mod longest_palindromic_substring;
 mod minimum_number_of_pushes_to_type_word_ii;
