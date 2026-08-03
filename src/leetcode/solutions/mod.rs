@@ -10,4 +10,6 @@ mod remove_element;
 mod reverse_integer;
 mod stone_game_iii;
 mod string_to_integer_atoi;
+mod three_sum;
+mod three_sum_closest;
 mod zigzag_conversion;
