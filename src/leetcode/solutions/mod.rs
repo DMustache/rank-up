@@ -15,3 +15,4 @@ mod string_to_integer_atoi;
 mod three_sum;
 mod three_sum_closest;
 mod zigzag_conversion;
+mod find_missing_elements;
