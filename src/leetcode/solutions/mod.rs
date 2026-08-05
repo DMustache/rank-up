@@ -11,6 +11,7 @@ mod palindrome_number;
 mod regular_expression_matching;
 mod remove_element;
 mod remove_methods_from_project;
+mod remove_nth_from_end;
 mod reverse_integer;
 mod stone_game_iii;
 mod string_to_integer_atoi;
