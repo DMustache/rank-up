@@ -17,4 +17,5 @@ mod stone_game_iii;
 mod string_to_integer_atoi;
 mod three_sum;
 mod three_sum_closest;
+mod valid_parentheses;
 mod zigzag_conversion;
