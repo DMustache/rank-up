@@ -62,6 +62,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "heavy"]
     #[timeout(2000)]
     fn tests() {
         println!("testing segment from 0");

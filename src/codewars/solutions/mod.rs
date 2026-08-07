@@ -1,5 +1,6 @@
 mod fix_the_pipes_2_is_it_leaking;
 mod k2_evaluate_mathematical_expression;
+mod k2_power_tower_modulo_m;
 mod k2_prime_streaming_nc_17;
 mod k3_prime_streaming_nc_13;
 mod k3_the_lift;

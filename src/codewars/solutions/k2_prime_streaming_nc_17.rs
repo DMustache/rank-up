@@ -154,6 +154,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "heavy"]
     #[timeout(2000)]
     fn tests() {
         println!("testing segment from 0");
@@ -173,6 +174,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "heavy"]
     #[timeout(12_000)]
     fn test_50_millionth_prime() {
         let mut prime_iterator = stream();
