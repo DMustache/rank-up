@@ -1,5 +1,6 @@
 mod fix_the_pipes_2_is_it_leaking;
 mod k2_evaluate_mathematical_expression;
+mod k3_the_lift;
 mod k4_range_extraction;
 mod k4_roman_numerals_helper;
 mod k4_the_observed_pin;
