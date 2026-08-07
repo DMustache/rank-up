@@ -50,7 +50,6 @@ impl Solution {
             } else {
                 lower = middle1 + 1;
             }
-
         }
 
         return 0.;
