@@ -2,6 +2,7 @@ mod combination_sum;
 mod container_with_most_water;
 mod find_median_sorted_arrays;
 mod find_missing_elements;
+mod find_the_lexicographically_smallest_valid_sequence;
 mod four_sum;
 mod four_sum_ii;
 mod longest_common_prefix;
