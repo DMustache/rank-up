@@ -19,6 +19,7 @@ mod reverse_integer;
 mod smallest_divisible_digit_product_ii;
 mod stone_game_ii;
 mod stone_game_iii;
+mod stone_game_iv;
 mod string_to_integer_atoi;
 mod three_sum;
 mod three_sum_closest;
