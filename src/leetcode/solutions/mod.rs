@@ -17,6 +17,7 @@ mod remove_methods_from_project;
 mod remove_nth_from_end;
 mod reverse_integer;
 mod smallest_divisible_digit_product_ii;
+mod smallest_missing_integer_greater_than_sequential_prefix;
 mod stone_game_ii;
 mod stone_game_iii;
 mod stone_game_iv;
