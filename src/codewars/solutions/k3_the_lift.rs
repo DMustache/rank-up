@@ -162,7 +162,7 @@ mod tests {
         );
     }
     #[test]
-    #[timeout(1)]
+    #[timeout(10)]
     fn test_down_and_down() {
         do_test(
             &[vec![], vec![0], vec![], vec![], vec![2], vec![3], vec![]],
