@@ -5,6 +5,7 @@ mod find_missing_elements;
 mod find_the_lexicographically_smallest_valid_sequence;
 mod four_sum;
 mod four_sum_ii;
+mod length_of_longest_subarray_with_at_most_k_frequency;
 mod longest_common_prefix;
 mod longest_palindromic_substring;
 mod maximum_area_of_two_non_overlapping_square_submatrices;
