@@ -8,6 +8,7 @@ mod four_sum_ii;
 mod length_of_longest_subarray_with_at_most_k_frequency;
 mod longest_common_prefix;
 mod longest_palindromic_substring;
+mod longest_substring_of_one_repeating_character;
 mod maximum_area_of_two_non_overlapping_square_submatrices;
 mod minimum_number_of_pushes_to_type_word_ii;
 mod minimum_total_price_after_applying_discounts;
