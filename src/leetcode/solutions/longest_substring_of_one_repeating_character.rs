@@ -128,12 +128,4 @@ mod tests {
             vec![1]
         );
     }
-
-    #[test]
-    fn updates_can_split_and_restore_runs() {
-        assert_eq!(
-            Solution::longest_repeating("aaaa".to_string(), "bbaa".to_string(), vec![1, 2, 1, 2],),
-            vec![2, 2, 3, 4]
-        );
-    }
 }

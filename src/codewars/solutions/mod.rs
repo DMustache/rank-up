@@ -11,4 +11,6 @@ mod k4_nonogram_solver_5x5;
 mod k4_range_extraction;
 mod k4_roman_numerals_helper;
 mod k4_the_observed_pin;
+mod k5_rgb_to_hex_conversion;
+mod k6_replace_with_alphabet_position;
 mod k7_count_the_divisors_of_a_number;
