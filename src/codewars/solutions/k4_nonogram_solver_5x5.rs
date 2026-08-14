@@ -100,9 +100,9 @@ fn columns_still_possible<const SIZE: usize>(
     column_patterns: &[Vec<[u8; SIZE]>; SIZE],
 ) -> bool {
     (0..SIZE).all(|column| {
-        column_patterns[column].iter().any(|pattern| {
-            (0..=current_row).all(|row| nonogram[row][column] == pattern[row])
-        })
+        column_patterns[column]
+            .iter()
+            .any(|pattern| (0..=current_row).all(|row| nonogram[row][column] == pattern[row]))
     })
 }
 
@@ -133,11 +133,7 @@ fn patterns_for_clue<const SIZE: usize>(clue: &[u8]) -> Vec<[u8; SIZE]> {
                 *cell = BLOCKED;
             }
 
-            for cell in next_line
-                .iter_mut()
-                .skip(block_start)
-                .take(block_len)
-            {
+            for cell in next_line.iter_mut().skip(block_start).take(block_len) {
                 *cell = FILLED;
             }
 
