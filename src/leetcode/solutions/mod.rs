@@ -30,3 +30,4 @@ mod three_sum_closest;
 mod valid_parentheses;
 mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
+mod cinema_seat_allocation;
