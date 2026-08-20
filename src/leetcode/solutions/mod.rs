@@ -1,5 +1,7 @@
+mod cinema_seat_allocation;
 mod combination_sum;
 mod container_with_most_water;
+mod distribute_elements_into_two_arrays_i;
 mod find_median_sorted_arrays;
 mod find_missing_elements;
 mod find_the_lexicographically_smallest_valid_sequence;
@@ -30,4 +32,3 @@ mod three_sum_closest;
 mod valid_parentheses;
 mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
-mod cinema_seat_allocation;
