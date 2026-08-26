@@ -33,3 +33,4 @@ mod valid_parentheses;
 mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
 mod stone_game_viii;
+mod smallest_missing_multiple_ok_k;
