@@ -34,3 +34,4 @@ mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
 mod stone_game_viii;
 mod smallest_missing_multiple_ok_k;
+mod shortest_and_lexicographically_smallest_beautiful_string;
