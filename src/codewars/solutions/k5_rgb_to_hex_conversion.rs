@@ -7,6 +7,7 @@ fn rgb(r: i32, g: i32, b: i32) -> String {
     )
 }
 
+#[allow(unused)]
 macro_rules! compare {
     ( $got : expr, $expected : expr ) => {
         if $got != $expected {
