@@ -129,7 +129,7 @@ mod tests {
     fn example_1() {
         assert_eq!(
             "baab",
-            solution::lex_palindromic_permutation("baba".to_string(), "abba".to_string())
+            Solution::lex_palindromic_permutation("baba".to_string(), "abba".to_string())
         );
     }
 
@@ -137,7 +137,7 @@ mod tests {
     fn example_2() {
         assert_eq!(
             "",
-            solution::lex_palindromic_permutation("baba".to_string(), "bbaa".to_string())
+            Solution::lex_palindromic_permutation("baba".to_string(), "bbaa".to_string())
         );
     }
 
@@ -145,7 +145,7 @@ mod tests {
     fn example_3() {
         assert_eq!(
             "",
-            solution::lex_palindromic_permutation("abc".to_string(), "abb".to_string())
+            Solution::lex_palindromic_permutation("abc".to_string(), "abb".to_string())
         );
     }
 
@@ -153,7 +153,7 @@ mod tests {
     fn example_4() {
         assert_eq!(
             "aca",
-            solution::lex_palindromic_permutation("aac".to_string(), "abb".to_string())
+            Solution::lex_palindromic_permutation("aac".to_string(), "abb".to_string())
         );
     }
 }
