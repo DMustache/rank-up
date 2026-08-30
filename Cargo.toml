@@ -15,3 +15,11 @@ ntest = "0.9"
 [[bench]]
 name = "selection_sort_benchmark"
 harness = false
+
+[profile.dev]
+debug = 0
+incremental = false
+
+[profile.test]
+debug = 0
+incremental = false
