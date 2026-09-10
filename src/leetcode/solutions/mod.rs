@@ -44,3 +44,4 @@ mod distinct_subsequences;
 mod distinct_subsequences_ii;
 mod count_commas_in_range;
 mod count_commas_in_range_ii;
+mod count_nodes_equal_to_average_of_subtree;
