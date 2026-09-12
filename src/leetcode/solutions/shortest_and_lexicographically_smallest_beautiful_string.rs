@@ -20,7 +20,9 @@ impl Solution {
             if ones == k {
                 let candiate = &s[left..=right];
 
-                if best.is_empty() || candiate.len() < best.len() || (candiate.len() == best.len() && candiate < best)
+                if best.is_empty()
+                    || candiate.len() < best.len()
+                    || (candiate.len() == best.len() && candiate < best)
                 {
                     best = candiate;
                 }
