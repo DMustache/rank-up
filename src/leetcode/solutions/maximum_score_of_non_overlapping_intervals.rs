@@ -12,9 +12,7 @@ impl Solution {
         let starts: Vec<i32> = intervals.iter().map(|interval| interval.0).collect();
         let next: Vec<usize> = intervals
             .iter()
-            .map(|interval| {
-                starts.partition_point(|&start| start <= interval.1)
-            })
+            .map(|interval| starts.partition_point(|&start| start <= interval.1))
             .collect();
 
         fn better(left: (i64, Vec<i32>), right: (i64, Vec<i32>)) -> (i64, Vec<i32>) {

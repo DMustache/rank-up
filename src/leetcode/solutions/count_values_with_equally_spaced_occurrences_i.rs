@@ -13,8 +13,7 @@ impl Solution {
         positions
             .values()
             .filter(|positions| {
-                positions.len() == 3
-                    && positions[1] - positions[0] == positions[2] - positions[1]
+                positions.len() == 3 && positions[1] - positions[0] == positions[2] - positions[1]
             })
             .count() as i32
     }

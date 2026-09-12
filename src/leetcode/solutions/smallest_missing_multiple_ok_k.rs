@@ -4,15 +4,12 @@ struct Solution;
 
 struct MultipleOfK {
     current: i32,
-    k: i32
+    k: i32,
 }
 
 impl MultipleOfK {
     pub fn new(k: i32) -> Self {
-        Self {
-            current: 0,
-            k,
-        }
+        Self { current: 0, k }
     }
 }
 

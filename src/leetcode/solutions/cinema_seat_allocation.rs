@@ -20,7 +20,7 @@ impl Solution {
             let middle_group = mask & 0b00111100;
 
             let mut groups_available = 0;
-            
+
             if left_group == 0 && right_group == 0 {
                 groups_available = 2;
             } else if left_group == 0 || right_group == 0 || middle_group == 0 {

@@ -30,4 +30,3 @@ mod tests {
         assert_eq!(Solution::count_commas(998), 0);
     }
 }
-

@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn minimum_deletions(nums: Vec<i32>) -> i32 {
-       let mut minimum_index = 0;
+        let mut minimum_index = 0;
         let mut minimum = &nums[minimum_index];
         let mut maximum_index = 0;
         let mut maximum = &nums[maximum_index];
@@ -36,12 +36,18 @@ mod tests {
 
     #[test]
     fn example_1() {
-        assert_eq!(Solution::minimum_deletions(vec![2, 10, 7, 5, 4, 1, 8, 6]), 5);
+        assert_eq!(
+            Solution::minimum_deletions(vec![2, 10, 7, 5, 4, 1, 8, 6]),
+            5
+        );
     }
 
     #[test]
     fn example_2() {
-        assert_eq!(Solution::minimum_deletions(vec![0, -4, 19, 1, 8, -2, -3, 5]), 3);
+        assert_eq!(
+            Solution::minimum_deletions(vec![0, -4, 19, 1, 8, -2, -3, 5]),
+            3
+        );
     }
 
     #[test]

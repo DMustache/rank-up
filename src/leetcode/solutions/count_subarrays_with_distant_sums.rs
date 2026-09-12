@@ -66,7 +66,7 @@ impl Fenwick {
 mod tests {
     use std::vec;
 
-use super::*;
+    use super::*;
 
     #[test]
     fn example_1() {
@@ -82,9 +82,12 @@ use super::*;
     fn example_3() {
         assert_eq!(Solution::distant_subarrays(vec![-3, 1, 2], 0, 3), 2);
     }
-    
+
     #[test]
     fn example_4() {
-        assert_eq!(Solution::distant_subarrays(vec![16,26,41,20,-25,18], -7, 0), 21);
+        assert_eq!(
+            Solution::distant_subarrays(vec![16, 26, 41, 20, -25, 18], -7, 0),
+            21
+        );
     }
 }

@@ -1,4 +1,3 @@
-
 struct Solution;
 
 impl Solution {
@@ -41,4 +40,3 @@ mod tests {
         );
     }
 }
-
