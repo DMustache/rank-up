@@ -47,3 +47,7 @@ mod unique_3digit_even_numbers;
 mod valid_parentheses;
 mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
+mod count_values_with_equally_spaced_occurrences_i;
+mod count_values_with_equally_spaced_occurrences_ii;
+mod minimum_days_to_score_exactly_n_points;
+mod count_subarrays_with_distant_sums;
