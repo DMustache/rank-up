@@ -31,6 +31,7 @@ mod minimum_days_to_score_exactly_n_points;
 mod minimum_number_of_pushes_to_type_word_ii;
 mod minimum_total_price_after_applying_discounts;
 mod palindrome_number;
+mod rectangle_overlap;
 mod regular_expression_matching;
 mod remove_element;
 mod remove_methods_from_project;
