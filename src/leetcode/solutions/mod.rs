@@ -1,4 +1,5 @@
 mod cinema_seat_allocation;
+mod circle_and_rectangle_overlapping;
 mod combination_sum;
 mod container_with_most_water;
 mod count_commas_in_range;
@@ -40,6 +41,7 @@ mod remove_element;
 mod remove_methods_from_project;
 mod remove_nth_from_end;
 mod removing_minimum_and_maximum_from_array;
+mod reverse_degree_of_a_string;
 mod reverse_integer;
 mod shortest_and_lexicographically_smallest_beautiful_string;
 mod smallest_divisible_digit_product_ii;
