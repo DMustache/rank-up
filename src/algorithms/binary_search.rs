@@ -8,7 +8,7 @@ pub fn binary_search<T: Ord>(array: &[T], target: &T) -> Option<usize> {
     while low < high {
         let middle = low + (high - low) / 2;
 
-        match array[middle].cmp(&target) {
+        match array[middle].cmp(target) {
             std::cmp::Ordering::Less => low = middle + 1,
             std::cmp::Ordering::Equal => return Some(middle),
             std::cmp::Ordering::Greater => high = middle,

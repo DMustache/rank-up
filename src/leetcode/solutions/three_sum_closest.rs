@@ -28,7 +28,7 @@ impl Solution {
                 }
             }
         }
-        return closest;
+        closest
     }
 }
 

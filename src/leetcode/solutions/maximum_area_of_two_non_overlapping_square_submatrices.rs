@@ -12,7 +12,7 @@ impl Solution {
         let mut largest_possible_side = rows.min(columns);
 
         while smallest_possible_side < largest_possible_side {
-            let side = (smallest_possible_side + largest_possible_side + 1) / 2;
+            let side = (smallest_possible_side + largest_possible_side).div_ceil(2);
 
             if Self::can_place_two_squares(&prefix_sums, rows, columns, side) {
                 smallest_possible_side = side;

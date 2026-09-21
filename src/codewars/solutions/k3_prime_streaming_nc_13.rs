@@ -21,7 +21,7 @@ impl Iterator for PrimeNumbers {
                 if prime > limit {
                     break;
                 }
-                if self.current % prime == 0 {
+                if self.current.is_multiple_of(prime) {
                     is_prime = false;
                     break;
                 }

@@ -79,7 +79,7 @@ impl PrimeNumbers {
                 break;
             }
 
-            let first_multiple = ((self.segment_start + prime - 1) / prime).max(prime);
+            let first_multiple = self.segment_start.div_ceil(prime).max(prime);
             let mut multiple = first_multiple * prime;
             if multiple < prime_square {
                 multiple = prime_square;
