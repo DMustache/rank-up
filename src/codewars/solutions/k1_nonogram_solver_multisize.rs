@@ -254,10 +254,8 @@ impl Solver {
         self.row_active[row].clear();
         self.row_active[row].push(pattern_index);
 
-        match self.apply_row_known(row, pattern, self.row_full_mask ^ pattern) {
-            Some(_) => true,
-            None => false,
-        }
+        self.apply_row_known(row, pattern, self.row_full_mask ^ pattern)
+            .is_some()
     }
 
     fn set_column(&mut self, column: usize, pattern_index: usize) -> bool {
@@ -266,10 +264,8 @@ impl Solver {
         self.column_active[column].clear();
         self.column_active[column].push(pattern_index);
 
-        match self.apply_column_known(column, pattern, self.column_full_mask ^ pattern) {
-            Some(_) => true,
-            None => false,
-        }
+        self.apply_column_known(column, pattern, self.column_full_mask ^ pattern)
+            .is_some()
     }
 
     fn is_solved(&self) -> bool {
@@ -290,7 +286,7 @@ impl Solver {
             if count > 1
                 && best
                     .as_ref()
-                    .map_or(true, |(best_score, _)| score < *best_score)
+                    .is_none_or(|(best_score, _)| score < *best_score)
             {
                 best = Some((score, Branch::Row(row)));
             }
@@ -305,7 +301,7 @@ impl Solver {
             if count > 1
                 && best
                     .as_ref()
-                    .map_or(true, |(best_score, _)| score < *best_score)
+                    .is_none_or(|(best_score, _)| score < *best_score)
             {
                 best = Some((score, Branch::Column(column)));
             }
@@ -360,10 +356,10 @@ fn search(mut solver: Solver, failed_states: &mut HashSet<Vec<u128>>) -> Option<
             for pattern_index in pattern_indexes {
                 let mut next_solver = solver.clone();
 
-                if next_solver.set_row(row, pattern_index) {
-                    if let Some(solution) = search(next_solver, failed_states) {
-                        return Some(solution);
-                    }
+                if next_solver.set_row(row, pattern_index)
+                    && let Some(solution) = search(next_solver, failed_states)
+                {
+                    return Some(solution);
                 }
             }
         }
@@ -373,10 +369,10 @@ fn search(mut solver: Solver, failed_states: &mut HashSet<Vec<u128>>) -> Option<
             for pattern_index in pattern_indexes {
                 let mut next_solver = solver.clone();
 
-                if next_solver.set_column(column, pattern_index) {
-                    if let Some(solution) = search(next_solver, failed_states) {
-                        return Some(solution);
-                    }
+                if next_solver.set_column(column, pattern_index)
+                    && let Some(solution) = search(next_solver, failed_states)
+                {
+                    return Some(solution);
                 }
             }
         }

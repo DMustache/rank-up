@@ -14,7 +14,7 @@ impl Solution {
                 *row_masks.entry(row).or_default() |= 1 << (collumn - 2);
             }
         }
-        for (_, &mask) in row_masks.iter() {
+        for &mask in row_masks.values() {
             let left_group = mask & 0b00001111;
             let right_group = mask & 0b11110000;
             let middle_group = mask & 0b00111100;

@@ -13,7 +13,7 @@ struct NodeGraph {
 
 impl NodeGraph {
     fn new(s: &str, num_rows: usize) -> Self {
-        if s.is_empty() || num_rows <= 0 {
+        if s.is_empty() || num_rows == 0 {
             return Self {
                 nodes: Vec::new(),
                 row_heads: Vec::new(),

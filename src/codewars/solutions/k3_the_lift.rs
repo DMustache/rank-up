@@ -14,7 +14,7 @@ fn the_lift(queues: &[Vec<u32>], capacity: u32) -> Vec<u32> {
 
     while !cage.is_empty() || queues.iter().any(|queue| !queue.is_empty()) {
         let current_floor = floor as u32;
-        let leaving = cage.iter().any(|&destination| destination == current_floor);
+        let leaving = cage.contains(&current_floor);
 
         cage.retain(|&destination| destination != current_floor);
 

@@ -24,8 +24,8 @@ fn euler_phi(mut n: u64) -> u64 {
     let mut i = 2;
 
     while i * i <= n {
-        if n % i == 0 {
-            while n % i == 0 {
+        if n.is_multiple_of(i) {
+            while n.is_multiple_of(i) {
                 n /= i;
             }
             result -= result / i;

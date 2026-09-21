@@ -11,7 +11,7 @@ impl Solution {
 
         while lower <= higher {
             let middle1 = (lower + higher) / 2;
-            let middle2 = (numbers1.len() + numbers2.len() + 1) / 2 - middle1;
+            let middle2 = (numbers1.len() + numbers2.len()).div_ceil(2) - middle1;
 
             let left1 = if middle1 == 0 {
                 f64::NEG_INFINITY
@@ -38,7 +38,7 @@ impl Solution {
             };
 
             if left1 <= right2 && left2 <= right1 {
-                if (numbers1.len() + numbers2.len()) % 2 == 0 {
+                if (numbers1.len() + numbers2.len()).is_multiple_of(2) {
                     return (f64::max(left1, left2) + f64::min(right1, right2)) / 2.0;
                 } else {
                     return f64::max(left1, left2);
@@ -52,6 +52,6 @@ impl Solution {
             }
         }
 
-        return 0.;
+        0.
     }
 }

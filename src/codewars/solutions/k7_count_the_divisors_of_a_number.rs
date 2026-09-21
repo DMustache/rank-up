@@ -1,5 +1,5 @@
 fn divisors(n: u32) -> u32 {
-    (1..=n / 2).filter(|i| n % i == 0).count() as u32 + 1
+    (1..=n / 2).filter(|i| n.is_multiple_of(*i)).count() as u32 + 1
 }
 
 // Add your tests here.

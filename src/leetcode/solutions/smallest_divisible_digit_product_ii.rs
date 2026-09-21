@@ -117,7 +117,7 @@ impl Solution {
             result.push((number, 1));
         }
 
-        return result;
+        result
     }
 
     fn build_min_number(

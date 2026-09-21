@@ -15,6 +15,7 @@ mod find_median_sorted_arrays;
 mod find_missing_elements;
 mod find_the_lexicographically_smallest_valid_sequence;
 mod find_two_non_overlapping_sub_arrays_each_with_target_sum;
+mod find_x_value_of_array_i;
 mod four_sum;
 mod four_sum_ii;
 mod image_overlap;

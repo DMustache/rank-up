@@ -1,6 +1,6 @@
 struct Solution;
 
-use std::collections::HashMap;
+use std::{cmp::Reverse, collections::HashMap};
 
 impl Solution {
     // we may to use only 2,3,4,5,6,7,8,9 numbers, no need to fill all numbers
@@ -13,14 +13,14 @@ impl Solution {
         }
 
         let mut sorted_counts: Vec<(char, usize)> = counts.into_iter().collect();
-        sorted_counts.sort_unstable_by(|a, b| b.1.cmp(&a.1));
+        sorted_counts.sort_unstable_by_key(|a| std::cmp::Reverse(a.1));
         let mut result = 0;
         for (i, (_, count)) in sorted_counts.into_iter().enumerate() {
             let pushes = i / 8 + 1;
             result += count * pushes;
         }
 
-        return result as i32;
+        result as i32
     }
 }
 
