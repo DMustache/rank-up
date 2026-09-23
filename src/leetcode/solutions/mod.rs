@@ -34,6 +34,7 @@ mod maximum_number_of_non_overlapping_substrings;
 mod maximum_score_of_non_overlapping_intervals;
 mod minimum_days_to_score_exactly_n_points;
 mod minimum_number_of_pushes_to_type_word_ii;
+mod minimum_operations_to_reduce_x_to_zero;
 mod minimum_total_price_after_applying_discounts;
 mod number_of_sets_of_k_non_overlapping_line_segments;
 mod palindrome_number;
