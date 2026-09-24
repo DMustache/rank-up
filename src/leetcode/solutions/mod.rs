@@ -48,6 +48,7 @@ mod reverse_degree_of_a_string;
 mod reverse_integer;
 mod shortest_and_lexicographically_smallest_beautiful_string;
 mod smallest_divisible_digit_product_ii;
+mod smallest_index_with_digit_sum_equal_to_index;
 mod smallest_missing_integer_greater_than_sequential_prefix;
 mod smallest_missing_multiple_ok_k;
 mod stone_game_ii;
