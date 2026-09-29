@@ -1,4 +1,5 @@
 mod brace_expansion_ii;
+mod check_if_there_is_a_valid_parentheses_string_path;
 mod cinema_seat_allocation;
 mod circle_and_rectangle_overlapping;
 mod combination_sum;
