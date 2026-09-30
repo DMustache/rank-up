@@ -1,9 +1,9 @@
 fn find_min_index<T: Ord>(arr: &[T]) -> usize {
     let mut smallest = &arr[0];
     let mut smallest_index = 0;
-    for i in 1..arr.len() {
-        if &arr[i] < smallest {
-            smallest = &arr[i];
+    for (i, item) in arr.iter().enumerate().skip(1) {
+        if item < smallest {
+            smallest = item;
             smallest_index = i;
         }
     }
@@ -11,11 +11,9 @@ fn find_min_index<T: Ord>(arr: &[T]) -> usize {
 }
 
 pub fn selection_sort<T: Ord>(arr: &mut [T]) {
-    let mut sorted_end = 0;
     for i in 0..arr.len() {
-        let smallest_index = find_min_index(&arr[sorted_end..]);
-        arr.swap(sorted_end + smallest_index, i);
-        sorted_end += 1;
+        let smallest_index = find_min_index(&arr[i..]);
+        arr.swap(i + smallest_index, i);
     }
 }
 

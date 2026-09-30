@@ -1,3 +1,5 @@
+use std::collections::VecDeque;
+
 #[derive(Clone, Copy, PartialEq, Eq)]
 enum Direction {
     Up,
@@ -178,4 +180,3 @@ mod sample_tests {
         (["....", ".┛┛.", "...."], true),
     ];
 }
-use std::collections::VecDeque;

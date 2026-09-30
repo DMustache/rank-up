@@ -63,26 +63,26 @@ mod tests {
 
     #[test]
     fn example1() {
-        assert_eq!(
-            Solution::is_rectangle_overlap(vec![0, 0, 2, 2], vec![1, 1, 3, 3]),
-            true
-        );
+        assert!(Solution::is_rectangle_overlap(
+            vec![0, 0, 2, 2],
+            vec![1, 1, 3, 3]
+        ));
     }
 
     #[test]
     fn example2() {
-        assert_eq!(
-            Solution::is_rectangle_overlap(vec![0, 0, 1, 1], vec![1, 0, 2, 1]),
-            false
-        );
+        assert!(!Solution::is_rectangle_overlap(
+            vec![0, 0, 1, 1],
+            vec![1, 0, 2, 1]
+        ));
     }
 
     #[test]
     fn example3() {
-        assert_eq!(
-            Solution::is_rectangle_overlap(vec![0, 0, 1, 1], vec![2, 2, 3, 3]),
-            false
-        );
+        assert!(!Solution::is_rectangle_overlap(
+            vec![0, 0, 1, 1],
+            vec![2, 2, 3, 3]
+        ));
     }
 
     #[test]

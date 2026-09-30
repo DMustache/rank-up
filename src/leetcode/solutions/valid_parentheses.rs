@@ -29,26 +29,26 @@ mod tests {
     fn example1() {
         let case = "()".to_string();
 
-        assert_eq!(true, Solution::is_valid(case));
+        assert!(Solution::is_valid(case));
     }
 
     #[test]
     fn example2() {
         let case = "()[]{}".to_string();
 
-        assert_eq!(true, Solution::is_valid(case));
+        assert!(Solution::is_valid(case));
     }
 
     #[test]
     fn example3() {
         let case = "(]".to_string();
 
-        assert_eq!(false, Solution::is_valid(case));
+        assert!(!Solution::is_valid(case));
     }
 
     #[test]
     fn example4() {
         let case = "([)]".to_string();
-        assert_eq!(false, Solution::is_valid(case))
+        assert!(!Solution::is_valid(case))
     }
 }

@@ -26,20 +26,20 @@ mod test {
     fn example() {
         let case = 121;
 
-        assert_eq!(true, Solution::is_palindrome(case))
+        assert!(Solution::is_palindrome(case))
     }
 
     #[test]
     fn example1() {
         let case = -121;
 
-        assert_eq!(false, Solution::is_palindrome(case))
+        assert!(!Solution::is_palindrome(case))
     }
 
     #[test]
     fn example2() {
         let case = 10;
 
-        assert_eq!(false, Solution::is_palindrome(case))
+        assert!(!Solution::is_palindrome(case))
     }
 }

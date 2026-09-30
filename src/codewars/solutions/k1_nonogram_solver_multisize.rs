@@ -313,10 +313,10 @@ impl Solver {
     fn to_board(&self) -> Vec<Vec<u8>> {
         let mut board = vec![vec![BLOCKED; self.width]; self.height];
 
-        for row in 0..self.height {
-            for column in 0..self.width {
+        for (row, cells) in board.iter_mut().enumerate() {
+            for (column, cell) in cells.iter_mut().enumerate() {
                 if self.row_filled[row] & bit(column) != 0 {
-                    board[row][column] = FILLED;
+                    *cell = FILLED;
                 }
             }
         }
