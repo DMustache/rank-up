@@ -40,20 +40,20 @@ mod test {
     fn example() {
         let s = "aa".to_string();
         let p = "a".to_string();
-        assert_eq!(false, Solution::is_match(s, p));
+        assert!(!Solution::is_match(s, p));
     }
 
     #[test]
     fn example2() {
         let s = "aa".to_string();
         let p = "a*".to_string();
-        assert_eq!(true, Solution::is_match(s, p));
+        assert!(Solution::is_match(s, p));
     }
 
     #[test]
     fn example3() {
         let s = "ab".to_string();
         let p = ".*".to_string();
-        assert_eq!(true, Solution::is_match(s, p));
+        assert!(Solution::is_match(s, p));
     }
 }

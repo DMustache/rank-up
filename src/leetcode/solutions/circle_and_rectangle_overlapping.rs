@@ -26,16 +26,16 @@ mod tests {
 
     #[test]
     fn example1() {
-        assert_eq!(Solution::check_overlap(1, 0, 0, 1, -1, 3, 1), true);
+        assert!(Solution::check_overlap(1, 0, 0, 1, -1, 3, 1));
     }
 
     #[test]
     fn example2() {
-        assert_eq!(Solution::check_overlap(1, 1, 1, 1, -3, 2, -1), false);
+        assert!(!Solution::check_overlap(1, 1, 1, 1, -3, 2, -1));
     }
 
     #[test]
     fn example3() {
-        assert_eq!(Solution::check_overlap(1, 0, 0, -1, 0, 0, 1), true);
+        assert!(Solution::check_overlap(1, 0, 0, -1, 0, 0, 1));
     }
 }
