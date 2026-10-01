@@ -52,6 +52,7 @@ mod removing_minimum_and_maximum_from_array;
 mod reverse_degree_of_a_string;
 mod reverse_integer;
 mod reverse_substrings_between_each_pair_of_parentheses;
+mod rotate_list;
 mod shortest_and_lexicographically_smallest_beautiful_string;
 mod smallest_divisible_digit_product_ii;
 mod smallest_index_with_digit_sum_equal_to_index;
