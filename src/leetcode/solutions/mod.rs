@@ -22,6 +22,7 @@ mod find_x_value_of_array_i;
 mod find_x_value_of_array_ii;
 mod four_sum;
 mod four_sum_ii;
+mod generate_parentheses;
 mod image_overlap;
 mod kth_smallest_amount_with_single_denomination_combinationg;
 mod length_of_longest_subarray_with_at_most_k_frequency;
