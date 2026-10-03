@@ -31,6 +31,7 @@ mod lexicographically_smallest_permutation_greater_than_target;
 mod longest_common_prefix;
 mod longest_palindromic_substring;
 mod longest_substring_of_one_repeating_character;
+mod longest_valid_parentheses;
 mod make_lexicographically_smallest_array_by_swapping_elements;
 mod maximum_area_of_two_non_overlapping_square_submatrices;
 mod maximum_length_substring_with_two_occurrences;
