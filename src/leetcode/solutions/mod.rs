@@ -49,6 +49,7 @@ mod palindrome_number;
 mod rectangle_overlap;
 mod regular_expression_matching;
 mod remove_element;
+mod remove_invalid_parentheses;
 mod remove_methods_from_project;
 mod remove_nth_from_end;
 mod removing_minimum_and_maximum_from_array;
