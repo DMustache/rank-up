@@ -52,6 +52,7 @@ mod remove_element;
 mod remove_invalid_parentheses;
 mod remove_methods_from_project;
 mod remove_nth_from_end;
+mod remove_outermost_parentheses;
 mod removing_minimum_and_maximum_from_array;
 mod reverse_degree_of_a_string;
 mod reverse_integer;
