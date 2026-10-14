@@ -1,3 +1,4 @@
+mod apply_operations_on_array_to_maximize_sum_of_squares;
 mod brace_expansion_ii;
 mod check_if_there_is_a_valid_parentheses_string_path;
 mod cinema_seat_allocation;
@@ -33,6 +34,7 @@ mod longest_palindromic_substring;
 mod longest_substring_of_one_repeating_character;
 mod longest_valid_parentheses;
 mod make_lexicographically_smallest_array_by_swapping_elements;
+mod maximize_sum_of_squares_of_digits;
 mod maximum_area_of_two_non_overlapping_square_submatrices;
 mod maximum_length_substring_with_two_occurrences;
 mod maximum_nesting_depth_of_the_parentheses;
