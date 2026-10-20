@@ -77,6 +77,7 @@ mod stone_game_iv;
 mod stone_game_viii;
 mod string_to_integer_atoi;
 mod subarrays_distinct_element_sum_of_squares_ii;
+mod sum_of_sortable_integers;
 mod three_sum;
 mod three_sum_closest;
 mod unique_3digit_even_numbers;
