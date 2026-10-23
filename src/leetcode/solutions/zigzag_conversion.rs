@@ -1,5 +1,3 @@
-struct Solution;
-
 struct Node {
     value: char,
     right: Option<usize>,
@@ -10,6 +8,8 @@ struct NodeGraph {
     nodes: Vec<Node>,
     row_heads: Vec<Option<usize>>,
 }
+
+struct Solution;
 
 impl NodeGraph {
     fn new(s: &str, num_rows: usize) -> Self {
