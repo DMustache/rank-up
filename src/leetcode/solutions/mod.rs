@@ -8,6 +8,7 @@ mod container_with_most_water;
 mod count_commas_in_range;
 mod count_commas_in_range_ii;
 mod count_days_spent_together;
+mod count_islands_with_total_value_divisible_by_k;
 mod count_nodes_equal_to_average_of_subtree;
 mod count_subarrays_with_distant_sums;
 mod count_values_with_equally_spaced_occurrences_i;
