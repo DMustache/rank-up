@@ -13,6 +13,7 @@ mod count_nodes_equal_to_average_of_subtree;
 mod count_subarrays_with_distant_sums;
 mod count_values_with_equally_spaced_occurrences_i;
 mod count_values_with_equally_spaced_occurrences_ii;
+mod create_grid_with_exactly_one_path;
 mod distinct_subsequences;
 mod distinct_subsequences_ii;
 mod distribute_elements_into_two_arrays_i;
