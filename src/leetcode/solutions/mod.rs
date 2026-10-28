@@ -55,6 +55,7 @@ mod minimum_operations_to_sort_a_permutation;
 mod minimum_sum_of_squared_difference;
 mod minimum_swaps_to_sort_by_digit_sum;
 mod minimum_total_price_after_applying_discounts;
+mod minimum_xor_path_in_a_grid;
 mod number_of_closed_islands;
 mod number_of_sets_of_k_non_overlapping_line_segments;
 mod number_of_ways_to_reorder_array_to_get_same_bst;
