@@ -74,6 +74,7 @@ mod reverse_substrings_between_each_pair_of_parentheses;
 mod rotate_list;
 mod score_of_parentheses;
 mod shortest_and_lexicographically_smallest_beautiful_string;
+mod shortest_path_with_at_most_k_consecutive_identical_characters;
 mod smallest_divisible_digit_product_ii;
 mod smallest_index_with_digit_sum_equal_to_index;
 mod smallest_missing_integer_greater_than_sequential_prefix;
