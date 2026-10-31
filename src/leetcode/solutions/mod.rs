@@ -88,6 +88,7 @@ mod subarrays_distinct_element_sum_of_squares_ii;
 mod sum_of_sortable_integers;
 mod three_sum;
 mod three_sum_closest;
+mod twisted_mirror_path_count;
 mod unique_3digit_even_numbers;
 mod valid_parentheses;
 mod valid_parenthesis_string;
