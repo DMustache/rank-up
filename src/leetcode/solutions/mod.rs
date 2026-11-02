@@ -50,6 +50,7 @@ mod minimum_add_to_make_parentheses_valid;
 mod minimum_days_to_score_exactly_n_points;
 mod minimum_insertions_to_balance_a_parentheses_string;
 mod minimum_moves_to_equal_array_elements;
+mod minimum_moves_to_equal_array_elements_ii;
 mod minimum_number_of_pushes_to_type_word_ii;
 mod minimum_operations_to_reduce_x_to_zero;
 mod minimum_operations_to_sort_a_permutation;
