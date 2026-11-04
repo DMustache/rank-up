@@ -96,3 +96,4 @@ mod valid_parentheses;
 mod valid_parenthesis_string;
 mod weighted_sum_of_a_tree;
 mod zigzag_conversion;
+mod minimum_operations_to_make_elements_within_k_subarrays_equal;
