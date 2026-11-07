@@ -65,6 +65,7 @@ mod number_of_closed_islands;
 mod number_of_sets_of_k_non_overlapping_line_segments;
 mod number_of_ways_to_reorder_array_to_get_same_bst;
 mod palindrome_number;
+mod process_tasks_using_servers;
 mod rectangle_overlap;
 mod regular_expression_matching;
 mod remove_element;
