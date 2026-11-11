@@ -52,6 +52,7 @@ mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod maximum_number_of_non_overlapping_substrings;
 mod maximum_score_of_non_overlapping_intervals;
 mod minimum_add_to_make_parentheses_valid;
+mod minimum_cost_to_acquire_required_items;
 mod minimum_days_to_score_exactly_n_points;
 mod minimum_insertions_to_balance_a_parentheses_string;
 mod minimum_moves_to_equal_array_elements;
