@@ -69,6 +69,7 @@ mod minimum_total_price_after_applying_discounts;
 mod minimum_xor_path_in_a_grid;
 mod number_of_closed_islands;
 mod number_of_sets_of_k_non_overlapping_line_segments;
+mod number_of_sub_arrays_with_odd_sum;
 mod number_of_ways_to_reorder_array_to_get_same_bst;
 mod palindrome_number;
 mod process_tasks_using_servers;
