@@ -1,5 +1,6 @@
 mod apply_operations_on_array_to_maximize_sum_of_squares;
 mod brace_expansion_ii;
+mod calculate_digit_sum_of_a_string;
 mod check_if_there_is_a_valid_parentheses_string_path;
 mod cinema_seat_allocation;
 mod circle_and_rectangle_overlapping;
