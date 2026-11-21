@@ -26,6 +26,7 @@ mod evaluate_the_bracket_pairs_of_a_string;
 mod find_median_sorted_arrays;
 mod find_missing_elements;
 mod find_servers_that_handled_most_number_of_requests;
+mod find_subtree_sizes_after_changes;
 mod find_target_indices_after_sorting_array;
 mod find_the_distance_value_between_two_arrays;
 mod find_the_lexicographically_smallest_valid_sequence;
