@@ -77,6 +77,7 @@ mod number_of_sub_arrays_with_odd_sum;
 mod number_of_ways_to_reorder_array_to_get_same_bst;
 mod palindrome_number;
 mod process_tasks_using_servers;
+mod product_of_the_last_k_numbers;
 mod rectangle_overlap;
 mod regular_expression_matching;
 mod remove_element;
