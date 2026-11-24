@@ -56,6 +56,7 @@ mod maximum_nesting_depth_of_the_parentheses;
 mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod maximum_number_of_non_overlapping_substrings;
 mod maximum_score_of_non_overlapping_intervals;
+mod maximum_subarray_with_equal_products;
 mod minimum_add_to_make_parentheses_valid;
 mod minimum_changes_to_make_k_semi_palindromes;
 mod minimum_cost_to_acquire_required_items;
