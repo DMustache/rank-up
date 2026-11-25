@@ -98,6 +98,7 @@ mod smallest_divisible_digit_product_ii;
 mod smallest_index_with_digit_sum_equal_to_index;
 mod smallest_missing_integer_greater_than_sequential_prefix;
 mod smallest_missing_multiple_ok_k;
+mod smallest_unique_subarray;
 mod stone_game_ii;
 mod stone_game_iii;
 mod stone_game_iv;
