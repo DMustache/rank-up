@@ -54,6 +54,7 @@ mod maximum_k_to_sort_a_permutation;
 mod maximum_length_substring_with_two_occurrences;
 mod maximum_nesting_depth_of_the_parentheses;
 mod maximum_nesting_depth_of_two_valid_parentheses_strings;
+mod maximum_number_of_items_from_sale_i;
 mod maximum_number_of_non_overlapping_substrings;
 mod maximum_score_of_non_overlapping_intervals;
 mod maximum_subarray_with_equal_products;
